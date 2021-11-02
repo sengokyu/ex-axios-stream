@@ -1,6 +1,6 @@
 import axios from "axios";
 import { randomUUID } from "crypto";
-import { createWriteStream, WriteFileOptions } from "fs";
+import { createWriteStream } from "fs";
 import path from "path";
 import { from } from "rxjs";
 import { Stream } from "stream";
